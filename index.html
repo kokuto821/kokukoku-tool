@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>旅行持ち物チェックリスト</title>
     <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div id="whole">
     <div id="preview">
 
         
@@ -57,16 +58,20 @@
     <div class="naturelist">
     <h2>自然を知ることが自然を知ることの第一歩です</h2>
     <h3>自然公園スポット</h3>
-    <li><a href="https://www.env.go.jp/park/parks/index.html">国立公園</a></li>
-    <li><a href="https://bes.or.jp/invitation/list_qp/">国定公園</a></li>
-    <iframe  src="https://bes.or.jp/invitation/list_qp/"  ></iframe>
-    <li><a href="https://www.env.go.jp/nature/isan/worldheritage/">自然遺産</a></li>
-    <li><a href="https://geopark.jp/geopark/">ジオパーク</a></li>
-    <li><a href="https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E3%81%AE%E3%83%A9%E3%83%A0%E3%82%B5%E3%83%BC%E3%83%AB%E6%9D%A1%E7%B4%84%E7%99%BB%E9%8C%B2%E5%9C%B0%E4%B8%80%E8%A6%A7">ラムサール条約指定湿地</a></li>
-    <li><a href="https://takinoinryoku.com/taki100.html">日本の滝100選</a></li>
-    <li><a href="http://nihon100sen.travel.coocan.jp/keikoku/hyousi/keikoku.htm">渓谷</a></li>
-    <li><a href="https://japonyol.net/100mountain.html">日本１００名山</a></li>
+    <li>国立公園（環境省）<a href="https://www.env.go.jp/park/parks/index.html">外部リンク</a></li>
+    <li><a href="https://www.bes.or.jp/invitation/list_np/" target="ifr">国立公園(自然公園財団)</a>　　<a href="https://www.bes.or.jp/invitation/list_np/">外部リンク</a></li>
+    <li><a href="https://www.bes.or.jp/invitation/list_qp/" target="ifr">国定公園</a>　　<a href="https://www.bes.or.jp/invitation/list_qp/">外部リンク</a></li>
+    <li>自然遺産(環境省)<a href="https://www.env.go.jp/nature/isan/worldheritage/">外部リンク</a></li>
+    <li><a href="https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E3%81%AE%E4%B8%96%E7%95%8C%E9%81%BA%E7%94%A3" target="ifr">日本の世界遺産(wikipedia)</a>　　<a href="https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E3%81%AE%E4%B8%96%E7%95%8C%E9%81%BA%E7%94%A3">外部リンク</a></li>
+    <li><a href="https://geopark.jp/geopark/"  target="ifr">ジオパーク</a>　　<a href="https://geopark.jp/geopark/">外部リンク</a></li>
+    <li><a href="https://ja.wikipedia.org/wiki/日本のラムサール条約登録地一覧" target="ifr">ラムサール条約指定湿地</a>　　<a href="https://ja.wikipedia.org/wiki/日本のラムサール条約登録地一覧">外部リンク</a></li>
+    <li><a href="https://takinoinryoku.com/taki100.html"  target="ifr">日本の滝100選</a>　　<a href="https://takinoinryoku.com/taki100.html">外部リンク</a></li>
+    <li><a href="http://nihon100sen.travel.coocan.jp/keikoku/hyousi/keikoku.htm"target="ifr">渓谷</a>　　<a href="http://nihon100sen.travel.coocan.jp/keikoku/hyousi/keikoku.htm">外部リンク</a></li>
+    <li><a href="https://japonyol.net/100mountain.html"  target="ifr">日本１００名山</a>　　<a href="https://japonyol.net/100mountain.html">外部リンク</a></li>
 
+    <iframe name="ifr" src="iframe.html"  ></iframe>
+    <br><a href="iframe.html" target="ifr">もとに戻す</a>
+    
     <!-- <li><a href=""></a></li> -->
     </div>
 
@@ -75,25 +80,50 @@
     <h3>その他自然スポット</h3>
     <div class="wrap">
     <h3>砂州</h3>
-    <li><a href="">サロマ湖 （北海道北見市・同常呂郡佐呂間町・同紋別郡湧別町）</a></li>
-    <li><a href="">天橋立 （京都府宮津市）</a></li>
-    <li><a href="">小天橋 （京都府京丹後市）</a></li>
-    <li><a href="">弓ヶ浜 （鳥取県米子市・同境港市）</a></li>
-    <li><a href="">波の橋立 （山口県長門市）</a></li>
-    <li><a href="">曲崎 （熊本県苓北町）</a></li>
-    <li><a href="">長目の浜（鹿児島県薩摩川内市・上甑島）</a></li>
+    <div class="s"><img src="https://kansaionepass.com/ja/food_tourism/images/amanohashidate/img_spot_01_01.jpg" width="300px"></div>
+    <li><a href="https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%AD%E3%83%9E%E6%B9%96"target="sasu">サロマ湖 （北海道北見市・同常呂郡佐呂間町・同紋別郡湧別町）</a></li>
+    <li><a href="https://ja.wikipedia.org/wiki/%E5%A4%A9%E6%A9%8B%E7%AB%8B"target="sasu">天橋立 （京都府宮津市）</a></li>
+    <li><a href="https://ja.wikipedia.org/wiki/%E5%B0%8F%E5%A4%A9%E6%A9%8B"target="sasu">小天橋 （京都府京丹後市）</a></li>
+    <li><a href="https://ja.wikipedia.org/wiki/%E5%BC%93%E3%83%B6%E6%B5%9C"target="sasu">弓ヶ浜 （鳥取県米子市・同境港市）</a></li>
+    <li><a href="https://ja.wikipedia.org/wiki/%E9%9D%92%E6%B5%B7%E5%B3%B6"target="sasu">波の橋立（山口県長門市青海島）</a></li>
+    <li><a href="https://tabi-mag.jp/ku0272/"target="sand">富岡の砂嘴（曲崎） （熊本県苓北町）</a></li>
+    <li><a href="https://ja.wikipedia.org/wiki/%E3%81%AA%E3%81%BE%E3%81%93%E6%B1%A0"target="sasu">長目の浜（鹿児島県薩摩川内市・上甑島）</a></li>
+    <iframe name="sasu" src="iframe.html"  ></iframe>
+    <br><a href="iframe.html" target="sasu">もとに戻す</a>
     </div>
     <div class="wrap">
     <h3>トンボロ</h3>
-    <li><a href="https://www.nishiizu-kankou.com/sightseeing/sanshirou">三四郎島 / 静岡県</a></li>
-    <li><a href="https://www.okayama-kanko.jp/spot/11144">黒島 / 岡山県</a></li>
-    <li><a href="https://sazan-seto.com/facility/shingujima">真宮島 / 山口県</a></li>
-    <li><a href="https://tabi-mag.jp/ka0135/">小豆島 / 香川県</a></li>
-    <li><a href="https://www.iyokannet.jp/spot/3322">大角豆島 / 愛媛県</a></li>
-    <li><a href="https://www.pref.kagoshima.jp/bc05/hakubutsukan/tennen/ken/chirinngashima.html">知林ヶ島 / 鹿児島県</a></li>
-    <li><a href="https://ja.wikipedia.org/wiki/%E5%B1%8B%E6%88%91%E5%9C%B0%E5%B3%B6">屋我地島 / 沖縄県</a></li>
-
+    <div class="s"><img src="https://www.dougashima-newginsui.jp/blog/wp-content/uploads/2022/03/56c790b67f1e16f7ea3ee9cecda262d8.png" width="300px"></div>
+    <div class="sansyo"><a  href="https://www.dougashima-newginsui.jp/blog/?p=4654">参照元</a></div>
+    <li><a href="https://www.nishiizu-kankou.com/sightseeing/sanshirou" target="sand">三四郎島 / 静岡県</a></li>
+    <li><a href="https://ja.wikipedia.org/wiki/%E9%BB%92%E5%B3%B6_(%E5%B2%A1%E5%B1%B1%E7%9C%8C)" target="sand">黒島 / 岡山県</a></li>
+    <li><a href="https://sazan-seto.com/facility/shingujima" target="sand">真宮島 / 山口県</a></li>
+    <li><a href="https://tabi-mag.jp/ka0135/" target="sand">小豆島 / 香川県</a></li>
+    <li><a href="https://recotripp.com/spot/81245" target="sand">大角豆島 / 愛媛県</a></li>
+    <li><a href="https://www.pref.kagoshima.jp/bc05/hakubutsukan/tennen/ken/chirinngashima.html" target="sand">知林ヶ島 / 鹿児島県</a></li>
+    <li><a href="https://ja.wikipedia.org/wiki/%E5%B1%8B%E6%88%91%E5%9C%B0%E5%B3%B6" target="sand">屋我地島 / 沖縄県</a></li>
+    <iframe name="sand" src="iframe.html"  ></iframe>
+    <br><a href="iframe.html" target="sand">もとに戻す</a>
     </div>
+    
+
+    <div class="wrap">
+        <h3>カルスト</h3>
+        <div class="s"><img src="https://fooddiversity.today/wp-content/uploads/2021/06/4339331_m.jpg" width="300px"></div>
+    <li><a href="https://akiyoshidai-park.com/"target="cal">秋吉台（山口県）</a></li>
+    <li><a href="https://www.gururich-kitaq.com/spot/hiraodai"target="cal">平尾台（福岡県</a></li>
+    <li><a href="https://kuma-kanko.com/spot/spot398/"target="cal">四国カルスト（高知県・愛媛県）</a></li>
+    ↑↑↑↑三大カルスト↑↑↑↑
+    <li><a href="https://ja.wikipedia.org/wiki/%E9%98%BF%E5%93%B2%E5%8F%B0"target="cal">阿哲台（岡山県）</a></li>
+    <li><a href="http://chaos.tokuyama-u.ac.jp/souken/gehp/ge-kohyou/h009.htm"target="cal">帝釈台（広島県）</a></li>
+    <li><a href="https://ja.wikipedia.org/wiki/%E4%BB%99%E5%8F%B0%E5%B9%B3_(%E6%9B%96%E6%98%A7%E3%81%95%E5%9B%9E%E9%81%BF)"target="cal">仙台平（福島県阿武隈地方）</a></li>
+    <li><a href="https://ja.wikipedia.org/wiki/%E6%B2%96%E6%B0%B8%E8%89%AF%E9%83%A8%E5%B3%B6"target="cal">沖永良部島（鹿児島県）</a></li>
+    <li><a href="https://ja.wikipedia.org/wiki/%E6%9C%AC%E9%83%A8%E5%8D%8A%E5%B3%B6%E3%82%AB%E3%83%AB%E3%82%B9%E3%83%88%E5%9C%B0%E5%9F%9F"target="cal">本部半島カルスト地域（沖縄県本部町）</a></li>
+
+    <iframe name="cal" src="iframe.html"  ></iframe>
+    <br><a href="iframe.html" target="cal">もとに戻す</a>
+    </div>
+
 
 
 
@@ -107,5 +137,7 @@
     <br>
     <h3>ファイルアップロード機能（準備中）</h3> 
     <input type="file" id="example" multiple> 
+</div>
+<!-- whole -->
 </body>
 </html>
